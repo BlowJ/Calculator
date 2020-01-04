@@ -10,11 +10,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         var fragment = Caculator()
         var transaction = supportFragmentManager.beginTransaction()
-        transaction.add(R.id.fragment_caculator, fragment)
+        transaction.add(R.id.frameCalculator, fragment)
         transaction.commit()
 
     }
-
 
 
 }
