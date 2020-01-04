@@ -28,7 +28,6 @@ class Caculator : Fragment() {
     ): View? {
         // Inflate the layout for this fragment
         val view: View = inflater.inflate(R.layout.fragment_caculator, container, false)
-
         return view
 
     }
